@@ -63,16 +63,21 @@ export function Navbar() {
             <a 
               href="#home" 
               onClick={(e) => scrollToSection(e, "#home")}
-              className="flex items-center gap-2"
+              className="flex items-center gap-3"
             >
-              <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center">
-                <span className="font-display font-bold text-white text-xl">A</span>
-              </div>
+              <img
+                src="/images/logo.png"
+                alt="Hotel Atithi Logo"
+                className={cn(
+                  "w-10 h-10 object-contain transition-all duration-300",
+                  isScrolled ? "brightness-0" : "brightness-200"
+                )}
+              />
               <span className={cn(
-                "font-display font-bold text-2xl tracking-tight transition-colors duration-300",
+                "font-display font-bold text-2xl tracking-widest uppercase transition-colors duration-300",
                 isScrolled ? "text-foreground" : "text-white drop-shadow-md"
               )}>
-                Hotel Atithi
+                HOTEL ATITHI
               </span>
             </a>
 
