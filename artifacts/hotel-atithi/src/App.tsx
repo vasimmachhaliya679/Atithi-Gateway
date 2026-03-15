@@ -5,6 +5,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 
 import Home from "@/pages/home";
 import FullMenu from "@/pages/full-menu";
+import FullGallery from "@/pages/full-gallery";
 import NotFound from "@/pages/not-found";
 
 const queryClient = new QueryClient();
@@ -14,6 +15,7 @@ function Router() {
     <Switch>
       <Route path="/" component={Home} />
       <Route path="/menu" component={FullMenu} />
+      <Route path="/gallery" component={FullGallery} />
       <Route component={NotFound} />
     </Switch>
   );
