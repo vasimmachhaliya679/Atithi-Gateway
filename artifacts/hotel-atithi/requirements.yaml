@@ -1,0 +1,13 @@
+packages:
+  "framer-motion": "For premium smooth scroll reveals and collapsible menu animations"
+  "clsx": "Utility for constructing class names conditionally"
+  "tailwind-merge": "Utility for merging tailwind classes safely"
+
+images:
+  - path: "artifacts/hotel-atithi/public/images/pattern.png"
+    description: "Subtle traditional Indian mandala mehndi border pattern in elegant gold on transparent background, minimal and modern"
+    aspect_ratio: "16:9"
+
+notes:
+  - This is a frontend-only static landing page with smooth scrolling sections.
+  - Relying on framer-motion for interaction polish.
